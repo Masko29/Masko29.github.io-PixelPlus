@@ -1,0 +1,139 @@
+@media (max-width: 479px) {
+  header {
+    min-height: 150px;
+    .contacts {
+      min-height: 150px;
+      padding: 0 20px;
+      .logo {
+        img {
+          max-width: 130px;
+          width: 100%;
+          max-height: 85px;
+          height: 100%;
+        }
+      }
+      .contact-us {
+        .phone {
+          font-size: $fs-xs;
+          line-height: 2;
+        }
+        .feedback {
+          font-size: $fs-xs;
+        }
+      }
+    }
+  }
+  .slider {
+    #top {
+      .owl-nav  {
+        .owl-prev {
+          left: 10%;
+          top: 25%;
+        }
+        .owl-next {
+          right:10%;
+          top:25%;
+        }
+      }
+    }
+  }
+  .navigation {
+    padding: 0 20px;
+  }
+  .central-block {
+    .catalog {
+      padding: 0 20px;
+      margin-bottom: 10px;
+      .cat {
+        .catalog-left {
+          .catalog-nav {
+            font-size: 0.75rem;
+          }
+          .price-list {
+            margin-top: 10px;
+            width: 100px;
+            .excel {
+              img {
+                width: 75px;
+                height: 85px;
+              }
+            }
+            p {
+              font-size: $fs-base;
+            }
+          }
+        }
+        .catalog-right {
+          max-height: 235px;
+          overflow: hidden;
+          margin-left: -20px;
+          .catalog-item {
+            width: 110px;
+            height: 190px;
+            padding: 10px;
+            margin-left: 80px;
+            .cat-photo {
+              width: 90px;
+              height: 90px;
+            }
+            .kettle {
+              font-size: 0.75rem;
+              margin: 5px 0;
+            }
+            .price {
+              font-size: 0.8125rem;
+            }
+            .basket {
+              margin: -17px 0 10px 60px;
+            }
+          }
+          .page-number {
+            margin: 10px 0px 10px 100px;
+            max-width: 75px;
+            .number {
+              font-size: 0.75rem;
+              color: $content-pageNumber;
+              width: 20px;
+              height: 20px;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+    .content {
+      padding: 0 20px;
+      margin-bottom: 10px;
+      .cont-block {
+        line-height: 15px;
+        font-size: $fs-xs;
+        padding: 10px 0;
+      }
+    }
+  }
+  footer {
+    padding: 15px 20px;
+    min-height: 150px;
+    .bottom {
+      .copyright {
+        font-size: 0.75rem;
+        line-height: 15px;
+        flex-basis: 43%;
+      }
+      .nav-footer {
+        ul {
+          li {
+            a {
+              font-size: 0.75rem;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+      .logo-footer {
+        font-size: 0.75rem;
+        line-height: 18px;
+      }
+    }
+  }
+}
